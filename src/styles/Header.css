@@ -1,0 +1,40 @@
+@media(min-width:600px){
+  .nav {
+  background-color: #333333;
+  height: 3em;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-bottom: 5em;
+}
+.nav a {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: larger;
+  float: left;
+}
+}
+@media (max-width:599px)
+{
+  .nav {
+    background-color: #333333;
+    height: 2em;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    margin-bottom: 2em;
+    padding-bottom: 0.5em;
+    
+  }
+  .nav a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: larger;
+    float: left;
+
+  }
+}

@@ -1,0 +1,65 @@
+@media(min-width:600px){
+    .quizCard{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 150px;
+    max-height: 150px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: 2px solid #d1d9e6;
+    text-align: center;
+    background-color: #E6E7EE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    padding: 0;
+
+
+}
+.title {
+font-size: larger;
+color: #333333;
+font-weight: bold;
+}
+.sub{
+    font-size: medium;
+    font-weight: 700;
+}
+.subs{
+    font-size: small;
+    font-weight: 500;
+}
+}
+@media (max-width:599px)
+{
+    .quizCard{
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 150px;
+        max-height: 150px;
+   
+        margin-top: 1rem;
+        cursor: pointer;
+        border: 2px solid #d1d9e6;
+        text-align: center;
+        background-color: #E6E7EE;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+        padding: 0;
+    
+    
+    }
+    .title {
+    font-size: larger;
+    color: #333333;
+    font-weight: bold;
+    }
+    .sub{
+        font-size: medium;
+        font-weight: 700;
+    }
+    .subs{
+        font-size: small;
+        font-weight: 500;
+    }
+}
